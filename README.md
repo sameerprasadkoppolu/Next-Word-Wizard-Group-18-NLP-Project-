@@ -6,8 +6,6 @@ Datasets for All Models: https://drive.google.com/drive/folders/1uCNCton7PudpfyZ
 
 Saved Models for LSTM, BiLSTM, and Grid Search CV for Ablation Study: https://drive.google.com/drive/folders/1TbEyO0LpIiUDS-dDdFTQOqrJzwL4hofk?usp=sharing
 
-GloVe Embeddings: https://drive.google.com/file/d/1c_0NKjnkyJgyLJIaiRJ0eg3idmuaV59N/view?usp=sharing
-
 
 Instructions to run the code for the different Models:
 
@@ -25,4 +23,15 @@ Instructions to run the code for the different Models:
    
 3. For Transformer Models: 
     - Follow the steps in the 'Next word Prediction using various Transformer Models.ipynb' notebook.
-    - 
+    - The dataset used in this notebook for training is 'merged_articles.txt' 
+    - Install the Happy Transformer Library and train it on merged_articles.txt' dataset.
+    - Run the cells for training of the four Transformer models and enter a sentence to get the Top 10 probable words along with the probabilities.
+    - Save the models for performing inference.
+    
+
+4. To load the Streamlit Application, first save the trained model weights and then run the following command.
+
+``` streamlit run main.py
+```
+
+This loads the Web application to perform inference using various models.
