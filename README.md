@@ -10,5 +10,17 @@ Saved Models for LSTM, BiLSTM, and Grid Search CV for Ablation Study: https://dr
 Instructions to run the code for the different Models:
 
 1. For Markov Model: 
-2. For LSTM, BiLSTM, and Grid Search CV: Follow the steps in the IPYNB File. Load the models from the above Google Drive Link using 'pickle' library.
+    - Run the cells in the 'Markov Chain Model.ipynb' notebook. The dataset used in this notebook is 'merged-articles.txt'
+    - Enter an input sequence of choice in the last cell of the notebook. Upon running this cell, the next word predictions are generated as the output of this cell.
+    
+2. For LSTM, BiLSTM, and Grid Search CV: 
+    - Follow the steps in the 'NLP_Project_Group_18_LSTM_BiLSTM.ipynb' notebook. 
+    - The dataset used in this notebook is 'ArticlesApril2017.csv'
+    - Upon loading the file, follow the steps for Text Pre-processing and Tokenization.
+    - Load the 100 dimensional GloVe embeddings using 'glove.6B.100d.txt'
+    - Run the cells for the TSNE visualizations of the GloVe embeddings of the Top 10 Most frequent words.
+    - Load the models from the above Google Drive Link using 'pickle' library.
+   
 3. For Transformer Models: 
+    - Follow the steps in the 'Next word Prediction using various Transformer Models.ipynb' notebook.
+    - 
