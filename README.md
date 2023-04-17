@@ -31,7 +31,9 @@ Instructions to run the code for the different Models:
 
 4. To load the Streamlit Application, first save the trained model weights and then run the following command.
 
-``` streamlit run main.py
+``` 
+streamlit run main.py
+
 ```
 
 This loads the Web application to perform inference using various models.
